@@ -1,0 +1,11 @@
+nom,age,ville
+John,25,New York
+Paul,30,Paris
+George,35,London
+Ringo,40,Liverpool
+John,45,New York
+Paul,50,Paris
+George,55,London
+Ringo,60,Liverpool
+John,65,New York
+Paul,70,Paris
