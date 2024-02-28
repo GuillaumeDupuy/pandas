@@ -450,6 +450,7 @@ func (df *Pandas) Mean() map[string]float64 {
 	return meanValues
 }
 
+// TODO: Fix this
 // Get the median of the values for the requested axis.
 func (df *Pandas) Median() map[string]float64 {
 	medianValues := make(map[string]float64)
@@ -471,6 +472,7 @@ func (df *Pandas) Median() map[string]float64 {
 	return medianValues
 }
 
+// TODO: Fix this
 // Get the minimum of the values for the requested axis.
 func (df *Pandas) Min() map[string]float64 {
 	minValues := make(map[string]float64)
@@ -490,6 +492,7 @@ func (df *Pandas) Min() map[string]float64 {
 	return minValues
 }
 
+// TODO: Fix this
 // Get the maximum of the values for the requested axis.
 func (df *Pandas) Max() map[string]float64 {
 	maxValues := make(map[string]float64)
@@ -551,6 +554,7 @@ func (df *Pandas) Concat(right *Pandas) *Pandas {
 	}
 }
 
+// TODO: Fix this
 // Group DataFrame using a mapper or by a Series of columns.
 func (df *Pandas) GroupBy(by string) map[interface{}]*Pandas {
 	groups := make(map[interface{}]*Pandas)
@@ -568,6 +572,7 @@ func (df *Pandas) GroupBy(by string) map[interface{}]*Pandas {
 	return groups
 }
 
+// TODO: Fix this
 // Compute sum of group values.
 func (df *Pandas) Sum() map[string]float64 {
 	sumValues := make(map[string]float64)

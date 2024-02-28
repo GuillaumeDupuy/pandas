@@ -118,22 +118,22 @@ func main() {
 
 	// fmt.Println("--------------------")
 
-	// Not working
+	// TODO: Fix this
 	// fmt.Println(df6.Median())
 
 	// fmt.Println("--------------------")
 
-	// Not working
+	// TODO: Fix this
 	// fmt.Println(df6.Min())
 
 	// fmt.Println("--------------------")
 
-	// Not working
+	// TODO: Fix this
 	// fmt.Println(df6.Max())
 
 	// fmt.Println("--------------------")
 
-	// Not working
+	// TODO: Fix this
 	// fmt.Println(df6.Sum())
 
 	fmt.Println("--------------------")
@@ -142,6 +142,6 @@ func main() {
 
 	// fmt.Println("--------------------")
 
-	// Not working
+	// TODO: Fix this
 	// fmt.Println(df6.GroupBy("age"))
 }
